@@ -1,22 +1,17 @@
-body{
+body {
     font-family: 'roboto', sans-serif;
 }
 
-.header-navigation {
-
-} 
-
-.header-list {
-
-}
-
-
-.header-link {
+.header-navigation, .header-list {  
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14;
+line-height: 1.4;
 letter-spacing: 0.02em;
 color: #212121;
+} 
+
+.header-link {
+line-height: 1.14;
 }
 
 .list {
@@ -27,12 +22,12 @@ list-style: none;
 text-decoration: none;
 }
 
-.hero {
-
-}
-
-.hero-title {
-
+.hero, .hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36px;
+letter-spacing: 0.06em;
+color: #FFFFFF;
 }
 
 .button {
@@ -42,35 +37,56 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.06em;
 color: #FFFFFF;
+background-color: #2196F3;
     
 }
 
-.section {
-
+.section, .section-item {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
 }
 
 .section-title {
-
-}
-
-.section-item {
-
+font-size: 36px;
+line-height: 1.17;
 }
 
 .section-txt {
-
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: #757575;
 }
 
 .section-member {
-
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
 }
 
-.footer {
+.section-role {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+color: #757575;
+} 
 
-}
+.footer
 
 .footer-item {
-
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
 }
+
+
+
+
 
 
