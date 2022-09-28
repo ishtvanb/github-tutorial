@@ -1,14 +1,50 @@
-body {
-    font-family: 'roboto', sans-serif;
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --neutral-color: #ffffff;
 }
 
-.header-navigation, .header-list {  
+body {
+font-family: 'roboto', sans-serif;
+ 
+}
+
+/* Header */
+
+.logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+color: aqua;
+}
+
+/* Site-nav */
+
+.site-nav {  
 font-weight: 500;
 font-size: 14px;
 line-height: 1.4;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--primary-text-color); 
 } 
+
+.site-nav .link {
+color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: var(--accent-color);
+}
 
 .header-link {
 line-height: 1.14;
@@ -22,13 +58,17 @@ list-style: none;
 text-decoration: none;
 }
 
-.hero, .hero-title {
+/* Hero */
+
+.hero-title {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36px;
 letter-spacing: 0.06em;
-color: #FFFFFF;
+color: var(--neutral-color);
 }
+
+/* Button */
 
 .button {
 font-family: 'roboto';
@@ -36,30 +76,47 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.06em;
-color: #FFFFFF;
-background-color: #2196F3;
-    
+color: var(--neutral-color);
+background-color: var(--accent-color);
 }
 
-.section, .section-item {
+.button.primary {
+    color: var(--neutral-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--accent-color);
+    background-color: var(--neutral-color);
+}
+
+.button:hover,
+.button:focus {
+color: var(--accent-color);
+background-color:var(--neutral-color);
+}
+
+/* Section */
+
+.section-title {
 font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+color: var(--primary-text-color);
+}
+
+.section-list {
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
-}
-
-.section-title {
-font-size: 36px;
-line-height: 1.17;
 }
 
 .section-txt {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-color: #757575;
+color: var(--secondary-text-color);
 }
 
 .section-member {
@@ -72,12 +129,13 @@ line-height: 1.19;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
-color: #757575;
+color: var(--secondary-text-color);
 } 
 
-.footer
+/* Footer */
 
-.footer-item {
+.footer-list {
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
