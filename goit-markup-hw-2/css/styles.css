@@ -2,7 +2,7 @@
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --accent-color: #2196F3;
-    --neutral-white-color: #ffffff;
+    --white-color: #ffffff;
 }
 
 body {
@@ -71,13 +71,15 @@ text-decoration: none;
 }
 
 /* Hero */
-
+/* primary-text-color is temporary; 
+main text color is white */
 .hero-title {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36px;
 letter-spacing: 0.06em;
-color: var(--neutral-white-color);
+text-align: center;
+color: var(--primary-text-color);
 }
 
 /* Button */
@@ -88,14 +90,14 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.06em;
-color: var(--neutral-white-color);
+color: var(--white-color);
 background-color: var(--accent-color);
 }
 
 .button:hover,
 .button:focus {
 color: var(--accent-color);
-background-color:var(--neutral-white-color);
+background-color:var(--white-color);
 }
 
 /* Section */
@@ -138,18 +140,19 @@ color: var(--secondary-text-color);
 
 /* Footer */
 
-.footer-list {
+.footer-list .link{
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+background-color: #2F303A;
 }
 
-.footer-list .link {
-color: var(--neutral-white-color);
-background-color: #2196F3;
+.footer-list .map-link {
+color: var(--white-color);
+
 }
 
 
