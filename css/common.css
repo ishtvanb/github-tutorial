@@ -3,12 +3,14 @@
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
   --white-color: #ffffff;
+  --body-background-color: #f5f5f5;
   --secondary-background-color: #f5f4fa;
   --primary-background-color: #2f303a;
 }
 
-body {
+.body {
   font-family: "roboto", sans-serif;
+  background-color: var(--body-background-color);
 }
 
 /* Header */
@@ -78,8 +80,11 @@ body {
 }
 
 /* Hero */
-/* primary-text-color is temporary; 
-main text color is white */
+
+.hero {
+  background-color: var(--primary-background-color);
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -87,10 +92,13 @@ main text color is white */
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-  color: var(--primary-text-color);
+  color: var(--white-color);
 }
 
 /* Button */
+.pointer {
+  cursor: pointer;
+}
 
 .button {
   font-family: "roboto", sans-serif;
@@ -114,7 +122,6 @@ main text color is white */
 
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
   background-color: var(--white-color);
 }
 
@@ -133,17 +140,18 @@ main text color is white */
   margin: -1px;
 }
 
-.section-title {
+.section-primary-title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
-.section-list {
+.section-secondary-title {
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  line-height: 1.17;
   color: var(--primary-text-color);
 }
 
@@ -152,6 +160,18 @@ main text color is white */
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
+}
+
+.section-team {
+  background-color: var(--secondary-background-color);
+}
+
+.section-team-list {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
 }
 
 .section-member {
@@ -169,13 +189,21 @@ main text color is white */
 
 /* Footer */
 
+.footer .accent {
+  color: var(--white-color);
+}
+
+.footer {
+  background-color: var(--primary-background-color);
+}
+
 .footer-list .link {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  background-color: var(--primary-background-color);
 }
 
 .footer-list .map-link {

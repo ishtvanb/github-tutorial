@@ -79,29 +79,27 @@
 
 /* Button */
 
+.pointer {
+  cursor: pointer;
+}
+
 .button {
-  font-family: inherit;
-  font-weight: 500;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
-.button.primary {
-  color: var(--white-color);
-  background-color: var(--accent-color);
-}
-
-.button.secondary {
+.button {
   color: var(--primary-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background-color);
 }
 
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
-  background-color: var(--white-color);
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
 /* Section */
@@ -137,13 +135,21 @@
 
 /* Footer */
 
+.footer .accent {
+  color: var(--white-color);
+}
+
+.footer {
+  background-color: var(--primary-background-color);
+}
+
 .footer-list .link {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  background-color: var(--primary-background-color);
 }
 
 .footer-list .map-link {
