@@ -149,3 +149,8 @@
 .footer-list .map-link {
   color: var(--white-color);
 }
+
+.footer-list .link:hover,
+.footer-list .link:focus {
+  color: var(--accent-color);
+}

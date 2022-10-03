@@ -10,7 +10,7 @@
 
 .body {
   font-family: "roboto", sans-serif;
-  background-color: var(--body-background-color);
+  background-color: var(--white-color);
 }
 
 /* Header */
@@ -199,4 +199,9 @@
 
 .footer-list .map-link {
   color: var(--white-color);
+}
+
+.footer-list .link:hover,
+.footer-list .link:focus {
+  color: var(--accent-color);
 }
