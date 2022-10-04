@@ -9,12 +9,30 @@
   --background-color-active: #188ce8;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .body {
   font-family: "roboto", sans-serif;
   background-color: var(--white-color);
 }
 
 /* Header */
+
+.container-header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+
+  background-color: tomato;
+}
 
 .logo {
   font-family: "raleway", sans-serif;
@@ -82,12 +100,26 @@
   background-color: var(--primary-background-color);
 }
 
+.container-hero {
+  display: inline-block;
+  width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  background-color: green;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
+  margin-top: 158px;
+  margin-bottom: 112px;
+  margin-left: auto;
+  margin-right: auto;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
   text-transform: uppercase;
   color: var(--white-color);
 }
@@ -95,6 +127,11 @@
 /* Button */
 
 .button {
+  margin-top: 0;
+  margin-bottom: 144px;
+  border-color: transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
   font-family: "roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -122,6 +159,13 @@
 
 /* Section */
 
+.container-section-list {
+  width: 1185px;
+  text-align: center;
+
+  background-color: aqua;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -136,6 +180,8 @@
 }
 
 .section-primary-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -144,6 +190,8 @@
 }
 
 .section-secondary-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
@@ -160,6 +208,13 @@
 
 .team-list {
   background-color: var(--white-color);
+}
+
+.container-team-list {
+  margin-top: 0;
+  margin-bottom: 119px;
+  text-align: center;
+  background-color: teal;
 }
 
 .section-team .list {

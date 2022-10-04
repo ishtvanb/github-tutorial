@@ -22,34 +22,39 @@
   </head>
   <body class="body">
     <header class="header">
-      <nav>
-        <a href="./index.html" class="logo link"
-          >Web<span class="accent">Studio</span></a
-        >
-        <ul class="site-nav list">
-          <li><a href="#" class="link current">Студія</a></li>
-          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li><a href="#" class="link">Контакти</a></li>
-        </ul>
-      </nav>
-      <ul class="site-connect list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link link"
-            >info@devstudio.com</a
+      <div class="container-header">
+        <nav>
+          <a href="./index.html" class="logo link"
+            >Web<span class="accent">Studio</span></a
           >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="link link">+38 096 111 11 11</a>
-        </li>
-      </ul>
+          <ul class="site-nav list">
+            <li><a href="#" class="link current">Студія</a></li>
+            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li><a href="#" class="link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="site-connect list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="link link">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <div class="container-hero">
+       <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="button" type="button">Замовити послугу</button>
       </section>
+        </div>
       <section class="section">
-        <h2 class="visually-hidden">Наші особливості</h2>
+        <div class="container-section-list">
+         <h2 class="visually-hidden">Наші особливості</h2>
         <ul class="section-list list">
           <li>
             <h3 class="section-secondary-title">увага до деталей</h3>
@@ -80,13 +85,14 @@
           </li>
         </ul>
       </section>
+        </div>
       <section class="section">
-        <h2 class="section-primary-title">Чим ми займаємося</h2>
+        <div class="container-section-list">
+         <h2 class="section-primary-title">Чим ми займаємося</h2>
         <ul class="section list list">
           <li>
             <img src="./images/img-1.jpg" alt="верстка сайтів" width="370" />
           </li>
-
           <li>
             <img
               src="./images/img-2.jpg"
@@ -98,8 +104,10 @@
             <img src="./images/img-3.jpg" alt="оформлення сайтів" width="370" />
           </li>
         </ul>
-      </section>
+        </div>
+        </section>
       <section class="section-team">
+        <div class="container-team-list">
         <h2 class="section-primary-title">Наша команда</h2>
         <ul class="section-list list">
           <li class="team-list">
@@ -139,6 +147,7 @@
             <p class="section-role" lang="en">UI Designer</p>
           </li>
         </ul>
+        <div>
       </section>
     </main>
     <footer class="footer">
