@@ -161,6 +161,8 @@ html {
 
 .container-section-list {
   width: 1185px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 
   background-color: aqua;
@@ -211,10 +213,16 @@ html {
 }
 
 .container-team-list {
-  margin-top: 0;
-  margin-bottom: 119px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+
   background-color: teal;
+}
+
+.primary-title {
+  margin-top: 19px;
+  margin-bottom: 119x;
 }
 
 .section-team .list {
