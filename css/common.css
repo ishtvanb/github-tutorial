@@ -27,9 +27,13 @@ html {
 /* Header */
 
 .container-header {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
+  padding-bottom: 8px;
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1200px;
 
   background-color: tomato;
 }
@@ -42,6 +46,7 @@ html {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 .accent {
   color: var(--primary-text-color);
 }
@@ -97,23 +102,14 @@ html {
 /* Hero */
 
 .hero {
-  background-color: var(--primary-background-color);
-}
-
-.container-hero {
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
-  display: inline-block;
-
-  background-color: green;
+  background-color: var(--primary-background-color);
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  margin-top: 158px;
+  margin-top: 0px;
   margin-bottom: 112px;
   margin-left: auto;
   margin-right: auto;
@@ -159,12 +155,13 @@ html {
 /* Section */
 
 .container {
-  width: 1185px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
+  padding-bottom: 94px;
+  margin: 0 auto;
+  width: 1200px;
   text-align: center;
-
-  background-color: aqua;
 }
 
 .visually-hidden {
@@ -201,6 +198,8 @@ html {
 }
 
 .section-txt {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
