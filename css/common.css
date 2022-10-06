@@ -27,15 +27,10 @@ html {
 /* Header */
 
 .container-header {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 0;
-  padding-bottom: 8px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-
-  background-color: tomato;
 }
 
 .logo {
@@ -53,7 +48,13 @@ html {
 
 /* Site-nav */
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .site-nav {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -61,8 +62,39 @@ html {
   color: var(--secondary-text-color);
 }
 
+.site-nav.list {
+  margin-left: 93px;
+  padding-left: 0;
+}
+.site-nav .item {
+  margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+  margin-right: 0;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
+}
+
+.site-connect {
+  display: flex;
+}
+
+.site-connect.list {
+  margin-left: auto;
+}
+
+.site-connect .item {
+  margin-right: 50px;
+}
+
+.site-connect .item:last-child {
+  margin-right: 0px;
 }
 
 .site-connect .link {
