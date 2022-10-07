@@ -23,10 +23,9 @@ html {
 
 .container-header {
   padding: 0 15px;
-  margin: 0 94px auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 1200px;
-
-  background-color: aquamarine;
 }
 
 /* Header */
@@ -46,7 +45,13 @@ html {
 
 /* Site-nav */
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .site-nav {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -54,8 +59,40 @@ html {
   color: var(--primary-text-color);
 }
 
+.site-nav.list {
+  margin-left: 93px;
+  padding-left: 0;
+}
+
+.site-nav .item {
+  margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+  margin-right: 0;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
+}
+
+.site-connect {
+  display: flex;
+}
+
+.site-connect .item {
+  margin-right: 50px;
+}
+
+.site-connect .item:last-child {
+  margin-right: 0px;
+}
+
+.site-connect.list {
+  margin-left: auto;
 }
 
 .site-connect .link {
@@ -67,8 +104,9 @@ html {
 }
 
 .site-connect.list {
-  margin: 0 auto;
+  margin-left: auto;
 }
+
 .site-nav .link.current {
   color: var(--accent-color);
 }
@@ -96,15 +134,26 @@ html {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-
-  background-color: coral;
 }
 
 /* Button */
+
+.button-list {
+  display: flex;
+  justify-content: center;
+}
+
+.button-list .item {
+  margin-right: 8px;
+}
+
+.button-list .item:last-child {
+  margin-right: 0;
+}
 
 .button {
   display: inline-block;

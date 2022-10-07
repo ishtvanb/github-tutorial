@@ -66,6 +66,7 @@ html {
   margin-left: 93px;
   padding-left: 0;
 }
+
 .site-nav .item {
   margin-right: 50px;
 }
@@ -85,16 +86,16 @@ html {
   display: flex;
 }
 
-.site-connect.list {
-  margin-left: auto;
-}
-
 .site-connect .item {
   margin-right: 50px;
 }
 
 .site-connect .item:last-child {
   margin-right: 0px;
+}
+
+.site-connect.list {
+  margin-left: auto;
 }
 
 .site-connect .link {
@@ -209,6 +210,11 @@ html {
   margin: -1px;
 }
 
+.section-list {
+  display: flex;
+  flex-basis: auto;
+}
+
 .section-primary-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -220,6 +226,7 @@ html {
 }
 
 .section-secondary-title {
+  text-align: start;
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
@@ -230,8 +237,10 @@ html {
 }
 
 .section-txt {
+  text-align: start;
   margin-top: 0;
   margin-bottom: 10px;
+  margin-right: 36px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
