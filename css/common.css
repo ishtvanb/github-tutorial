@@ -187,14 +187,18 @@ html {
 
 /* Section */
 
-.container {
+.container-features {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 0;
   padding-bottom: 94px;
   margin: 0 auto;
   width: 1200px;
-  text-align: center;
+}
+
+.list .item {
+  width: 270px;
+  margin-right: 30px;
 }
 
 .visually-hidden {
@@ -212,10 +216,11 @@ html {
 
 .section-list {
   display: flex;
-  flex-basis: auto;
+  margin-right: 30px;
 }
 
 .section-primary-title {
+  text-align: center;
   margin-top: 0;
   margin-bottom: 50px;
   font-weight: 700;
@@ -240,15 +245,46 @@ html {
   text-align: start;
   margin-top: 0;
   margin-bottom: 10px;
-  margin-right: 36px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
 
+.container-service {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.container-service .item {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.container-service .item:last-child {
+  margin-right: 0;
+}
+
+.container-team {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
+  width: 1200px;
+}
+
 .team-list {
+  width: 270px;
+  margin-right: 30px;
   background-color: var(--white-color);
+}
+
+.team-list:last-child {
+  margin-right: 0;
 }
 
 .section-team .list {
