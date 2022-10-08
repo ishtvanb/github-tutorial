@@ -21,6 +21,25 @@ html {
   font-family: "roboto", sans-serif;
 }
 
+.reset p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container-header {
   padding: 0 15px;
   margin-left: auto;
