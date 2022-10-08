@@ -196,11 +196,6 @@ html {
   width: 1200px;
 }
 
-.list .item {
-  width: 270px;
-  margin-right: 30px;
-}
-
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -216,7 +211,11 @@ html {
 
 .section-list {
   display: flex;
-  margin-right: 30px;
+  gap: 30px;
+}
+
+.section-list .item {
+  min-width: 270px;
 }
 
 .section-primary-title {
@@ -263,7 +262,7 @@ html {
 
 .container-service .item {
   width: 370px;
-  margin-right: 30px;
+  gap: 30px;
 }
 
 .container-service .item:last-child {
@@ -271,6 +270,8 @@ html {
 }
 
 .container-team {
+  margin-right: auto;
+  margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 0;
@@ -278,8 +279,8 @@ html {
 }
 
 .team-list {
+  gap: 30px;
   width: 270px;
-  margin-right: 30px;
   background-color: var(--white-color);
 }
 
@@ -296,6 +297,7 @@ html {
 }
 
 .section-member {
+  text-align: center;
   margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
@@ -305,6 +307,7 @@ html {
 }
 
 .section-role {
+  text-align: center;
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 16px;
@@ -313,6 +316,15 @@ html {
 }
 
 /* Footer */
+
+.container-footer {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
+  width: 1200px;
+}
 
 .footer .accent {
   color: var(--white-color);
@@ -329,6 +341,10 @@ html {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list.list {
+  padding-left: 0;
 }
 
 .footer-list .map-link {

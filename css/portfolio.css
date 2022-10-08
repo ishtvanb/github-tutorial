@@ -258,6 +258,15 @@ html {
 
 /* Footer */
 
+.container-footer {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
+  width: 1200px;
+}
+
 .footer .accent {
   color: var(--white-color);
 }
@@ -273,6 +282,10 @@ html {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list.list {
+  padding-left: 0;
 }
 
 .footer-list .map-link {
