@@ -31,7 +31,7 @@ h3 {
   margin: 0;
 }
 
-.ul,
+ul,
 ol {
   margin: 0;
   padding-left: 0;
@@ -45,7 +45,7 @@ ol {
 
 /* Header */
 
-.container-header {
+.container {
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
@@ -113,16 +113,16 @@ ol {
   margin-right: 0px;
 }
 
-.site-connect.list {
-  margin-left: auto;
-}
-
 .site-connect .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+}
+
+.site-connect.list {
+  margin-left: auto;
 }
 
 .site-nav .link.current {
@@ -155,16 +155,16 @@ ol {
 
 .hero {
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--primary-background-color);
 }
 
 .hero-title {
+  max-width: 696px;
   font-weight: 900;
   font-size: 44px;
-  margin-top: 0px;
-  margin-bottom: 112px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 30px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -206,11 +206,10 @@ ol {
 
 /* Section */
 
-.container-features {
+.container {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 0;
-  padding-bottom: 94px;
   margin: 0 auto;
   width: 1200px;
 }
@@ -231,6 +230,8 @@ ol {
 .section-list {
   display: flex;
   gap: 30px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-list .item {
@@ -262,14 +263,14 @@ ol {
 .section-txt {
   text-align: start;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
 
-.container-service {
+.container {
   display: flex;
   flex-direction: row;
   padding-left: 15px;
@@ -279,16 +280,21 @@ ol {
   width: 1200px;
 }
 
-.container-service .item {
+.section-list {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
+.service .item {
   width: 370px;
   gap: 30px;
 }
 
-.container-service .item:last-child {
+.service .item:last-child {
   margin-right: 0;
 }
 
-.container-team {
+.container {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -298,6 +304,8 @@ ol {
 }
 
 .team-list {
+  padding-top: 94px;
+  padding-bottom: 94px;
   gap: 30px;
   width: 270px;
   background-color: var(--white-color);
@@ -336,7 +344,7 @@ ol {
 
 /* Footer */
 
-.container-footer {
+.container {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -350,6 +358,8 @@ ol {
 }
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--primary-background-color);
 }
 
@@ -362,8 +372,8 @@ ol {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-list.list {
-  padding-left: 0;
+.footer-list.item {
+  margin-bottom: 9px;
 }
 
 .footer-list .map-link {
