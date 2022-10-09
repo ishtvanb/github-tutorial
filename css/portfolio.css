@@ -160,6 +160,8 @@ ol {
 .button-list {
   display: flex;
   justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 34px;
 }
 
 .button-list .item {
