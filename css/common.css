@@ -357,11 +357,6 @@ ol {
   width: 1200px;
 }
 
-.logo {
-  margin-top: 60px;
-  margin-bottom: 20px;
-}
-
 .footer .accent {
   color: var(--white-color);
 }
@@ -370,6 +365,13 @@ ol {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--primary-background-color);
+}
+
+.footer-list.list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-top: 20px;
 }
 
 .footer-list .link {

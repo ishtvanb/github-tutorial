@@ -222,7 +222,7 @@ ol {
 }
 
 .flex-element {
-  width: 370px;
+  width: calc((100% - 60px) / 3);
 }
 
 .flex-element:nth-last-child(-n + 3) {
@@ -284,18 +284,12 @@ ol {
 /* Footer */
 
 .container {
-  display: block;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 0;
   width: 1200px;
-}
-
-.logo {
-  margin-top: 60px;
-  margin-bottom: 20 px;
 }
 
 .footer .accent {
@@ -308,8 +302,14 @@ ol {
   background-color: var(--primary-background-color);
 }
 
+.footer-list.list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-top: 20px;
+}
+
 .footer-list .link {
-  margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
