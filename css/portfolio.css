@@ -67,6 +67,7 @@ ol {
 .main-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .site-nav {
@@ -283,6 +284,7 @@ ol {
 /* Footer */
 
 .container {
+  display: block;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -291,25 +293,29 @@ ol {
   width: 1200px;
 }
 
+.logo {
+  margin-top: 60px;
+  margin-bottom: 20 px;
+}
+
 .footer .accent {
   color: var(--white-color);
 }
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--primary-background-color);
 }
 
 .footer-list .link {
+  margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-list.list {
-  padding-left: 0;
 }
 
 .footer-list .map-link {

@@ -206,6 +206,11 @@ ol {
 
 /* Section */
 
+.section-features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -230,8 +235,6 @@ ol {
 .section-list {
   display: flex;
   gap: 30px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .section-list .item {
@@ -345,12 +348,18 @@ ol {
 /* Footer */
 
 .container {
+  display: block;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 0;
   width: 1200px;
+}
+
+.logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .footer .accent {
@@ -364,16 +373,13 @@ ol {
 }
 
 .footer-list .link {
+  margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-list.item {
-  margin-bottom: 9px;
 }
 
 .footer-list .map-link {
