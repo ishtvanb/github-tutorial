@@ -49,6 +49,11 @@ ol {
 
 /* Header */
 
+.header {
+  display: flex;
+  border-bottom: 1px solid #ececec;
+}
+
 .logo {
   font-family: "raleway", sans-serif;
   font-weight: 700;
@@ -67,7 +72,6 @@ ol {
 .main-nav {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .site-nav {
@@ -99,8 +103,9 @@ ol {
   color: var(--primary-text-color);
 }
 
-.site-connect {
+.site-connect.list {
   display: flex;
+  margin-left: auto;
 }
 
 .site-connect .item {
@@ -117,10 +122,6 @@ ol {
   line-height: 1.4;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-}
-
-.site-connect.list {
-  margin-left: auto;
 }
 
 .site-nav .link.current {
@@ -161,8 +162,7 @@ ol {
 .button-list {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .button-list .item {
@@ -176,8 +176,7 @@ ol {
 .button {
   display: inline-block;
   min-width: 130px;
-  margin-top: 6px;
-  margin-bottom: 6px;
+  padding: 6px 22px;
   margin-left: auto;
   margin-right: auto;
   font-family: "roboto", sans-serif;
@@ -210,6 +209,19 @@ ol {
   padding-right: 15px;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -237,38 +249,27 @@ ol {
   margin-bottom: 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+.description {
+  width: 370px;
+  padding-top: 20px 24px;
+  border: 1px #eeeeee;
+  border-top: none;
 }
 
 .section-title {
-  margin-top: 20px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-align: center;
   color: var(--primary-text-color);
 }
 
 .section-list .section-txt {
-  margin-top: 0;
-  margin-bottom: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  text-align: center;
   color: var(--secondary-text-color);
 }
 
@@ -278,7 +279,6 @@ ol {
 
 .section-txt-end {
   margin-bottom: 0;
-  text-align: center;
 }
 
 /* Footer */
@@ -300,6 +300,10 @@ ol {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--primary-background-color);
+}
+
+.address {
+  margin-top: 20px;
 }
 
 .footer-list.list {

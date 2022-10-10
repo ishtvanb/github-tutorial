@@ -52,6 +52,11 @@ ol {
   width: 1200px;
 }
 
+.header {
+  display: flex;
+  border-bottom: 1px solid #ececec;
+}
+
 .logo {
   font-family: "raleway", sans-serif;
   font-weight: 700;
@@ -101,8 +106,9 @@ ol {
   color: var(--primary-text-color);
 }
 
-.site-connect {
+.site-connect.list {
   display: flex;
+  margin-left: auto;
 }
 
 .site-connect .item {
@@ -119,10 +125,6 @@ ol {
   line-height: 1.4;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-}
-
-.site-connect.list {
-  margin-left: auto;
 }
 
 .site-nav .link.current {
@@ -175,7 +177,6 @@ ol {
 
 .button {
   margin-top: 0;
-  margin-bottom: 144px;
   border-color: transparent;
   border-radius: 4px;
   padding: 10px 32px;
@@ -208,7 +209,6 @@ ol {
 
 .section-features {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .container {
@@ -235,6 +235,7 @@ ol {
 .section-list {
   display: flex;
   gap: 30px;
+  padding-bottom: 94px;
 }
 
 .section-list .item {
@@ -274,8 +275,6 @@ ol {
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 0;
@@ -307,8 +306,6 @@ ol {
 }
 
 .team-list {
-  padding-top: 94px;
-  padding-bottom: 94px;
   gap: 30px;
   width: 270px;
   background-color: var(--white-color);
@@ -319,6 +316,8 @@ ol {
 }
 
 .section-team .list {
+  padding-top: 94px;
+  padding-bottom: 94px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -348,12 +347,10 @@ ol {
 /* Footer */
 
 .container {
-  display: block;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 0;
   width: 1200px;
 }
 
@@ -367,11 +364,14 @@ ol {
   background-color: var(--primary-background-color);
 }
 
+.address {
+  margin-top: 20px;
+}
+
 .footer-list.list {
   display: flex;
   flex-direction: column;
   gap: 9px;
-  margin-top: 20px;
 }
 
 .footer-list .link {
