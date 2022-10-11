@@ -208,34 +208,6 @@ ol {
 
 /* Section */
 
-.section-features .list {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-
-.section-list .item {
-  display: block;
-  min-width: 270px;
-}
-
-.section-list {
-  display: flex;
-  gap: 30px;
-}
-
 .section-primary-title {
   text-align: center;
   margin-top: 0;
@@ -256,6 +228,34 @@ ol {
   line-height: 1.17;
   text-transform: uppercase;
   color: var(--primary-text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.section-features .list {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-list .item {
+  display: block;
+  min-width: 270px;
+}
+
+.section-list {
+  display: flex;
+  gap: 30px;
 }
 
 .section-txt {
@@ -284,8 +284,8 @@ ol {
   background-color: var(--white-color);
 }
 
-.team-list:last-child {
-  margin-right: 0;
+.section-team {
+  background-color: var(--secondary-background-color);
 }
 
 .section-team .list {
