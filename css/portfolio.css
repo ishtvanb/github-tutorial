@@ -105,6 +105,7 @@ ol {
 
 .site-connect.list {
   display: flex;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -152,13 +153,6 @@ ol {
 
 /* Button */
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .button-list {
   display: flex;
   justify-content: center;
@@ -202,13 +196,6 @@ ol {
 
 /* Section */
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -251,7 +238,7 @@ ol {
 
 .description {
   width: 370px;
-  padding-top: 20px 24px;
+  padding: 20px 24px;
   border: 1px #eeeeee;
   border-top: none;
 }
@@ -266,6 +253,7 @@ ol {
 }
 
 .section-list .section-txt {
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -282,15 +270,6 @@ ol {
 }
 
 /* Footer */
-
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 0;
-  width: 1200px;
-}
 
 .footer .accent {
   color: var(--white-color);

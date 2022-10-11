@@ -108,6 +108,7 @@ ol {
 
 .site-connect.list {
   display: flex;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -207,16 +208,9 @@ ol {
 
 /* Section */
 
-.section-features {
+.section-features .list {
   padding-top: 94px;
-}
-
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 0;
-  margin: 0 auto;
-  width: 1200px;
+  padding-bottom: 94px;
 }
 
 .visually-hidden {
@@ -232,14 +226,14 @@ ol {
   margin: -1px;
 }
 
+.section-list .item {
+  display: block;
+  min-width: 270px;
+}
+
 .section-list {
   display: flex;
   gap: 30px;
-  padding-bottom: 94px;
-}
-
-.section-list .item {
-  min-width: 270px;
 }
 
 .section-primary-title {
@@ -274,35 +268,14 @@ ol {
   color: var(--secondary-text-color);
 }
 
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 0;
-  margin: 0 auto;
-  width: 1200px;
-}
-
-.section-list {
-  padding-top: 0;
+.section-description .list {
+  display: flex;
   padding-bottom: 94px;
 }
 
-.service .item {
+.description .list-item {
   width: 370px;
   gap: 30px;
-}
-
-.service .item:last-child {
-  margin-right: 0;
-}
-
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 0;
-  width: 1200px;
 }
 
 .team-list {
@@ -345,14 +318,6 @@ ol {
 }
 
 /* Footer */
-
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1200px;
-}
 
 .footer .accent {
   color: var(--white-color);
