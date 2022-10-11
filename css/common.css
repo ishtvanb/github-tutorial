@@ -269,13 +269,11 @@ ol {
 }
 
 .section-description .list {
-  display: flex;
   padding-bottom: 94px;
 }
 
 .description .list-item {
   width: 370px;
-  gap: 30px;
 }
 
 .team-list {
