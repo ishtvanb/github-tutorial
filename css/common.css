@@ -27,7 +27,10 @@ html {
 .reset p,
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -35,6 +38,13 @@ ul,
 ol {
   margin: 0;
   padding-left: 0;
+}
+
+button {
+  color: pointer;
+}
+address {
+  font-style: normal;
 }
 
 .img {
@@ -45,16 +55,19 @@ ol {
 
 /* Header */
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+  display: flex;
+}
+
 .container {
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-}
-
-.header {
-  display: flex;
-  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -208,6 +221,20 @@ ol {
 
 /* Section */
 
+.section-features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-description {
+  padding-bottom: 94px;
+}
+
+.section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-primary-title {
   text-align: center;
   margin-top: 0;
@@ -243,11 +270,6 @@ ol {
   margin: -1px;
 }
 
-.section-features .list {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .section-list .item {
   display: block;
   min-width: 270px;
@@ -268,10 +290,6 @@ ol {
   color: var(--secondary-text-color);
 }
 
-.section-description .list {
-  padding-bottom: 94px;
-}
-
 .description .list-item {
   width: 370px;
 }
@@ -287,8 +305,6 @@ ol {
 }
 
 .section-team .list {
-  padding-top: 94px;
-  padding-bottom: 94px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
