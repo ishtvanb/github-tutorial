@@ -1,0 +1,163 @@
+.footer {
+    background-color: $background-footer;
+    padding: 60px 0;
+
+    @media screen and (max-width: 1199px) {
+        text-align: center;
+    }
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(2 * $card-set-gap);
+    justify-content: center;
+
+    @media screen and (min-width: 1200px) {
+        align-items: baseline;
+    }
+}
+
+.footer__main {
+    @media screen and (min-width: 768px) {
+        padding-right: 165px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-right: 70px;
+    }
+}
+
+.contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    transition: color $time $time-function;
+}
+
+.contact__item:not(:last-child) {
+    margin-bottom: 9px;
+
+    @media screen and (max-width: 1199px) {
+        margin-bottom: 8px;
+    }
+}
+
+.contact--address {
+    color: $up-white-text;
+
+    &:hover,
+    &:focus {
+        color: $activ;
+    }
+}
+
+.contact--link {
+    color: $contact-footer;
+
+    &:hover,
+    &:focus {
+        color: $activ;
+    }
+}
+
+/* ----------------Приєнуйся соц зв'язок в підвалі --------- */
+.footer__text {
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $up-white-text;
+}
+
+/* <!------- Приєднайся залиш свою пошту ---------------> */
+.footer__input {
+    @media screen and (min-width: 1200px) {
+        margin-left: auto;
+    }
+}
+
+.footer-form {
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 570px;
+    }
+
+    @media screen and (max-width: 1199px) {
+        max-width: 450px;
+    }
+}
+
+.footer-form__input {
+    height: 50px;
+    width: 358px;
+    padding: 15px 0 15px 16px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+    background-color: $background-footer;
+    color: $contact-footer;
+
+    @media screen and (min-width: 480px) and (max-width: 1199px) {
+        width: 450px;
+        margin-bottom: 20px;
+    }
+
+    @media screen and (max-width: 479px) {
+        margin-bottom: 20px;
+        width: calc(100vw - 30px);
+    }
+}
+
+.footer-form__input::placeholder {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.25;
+    color: $contact-footer;
+}
+
+.footer-form__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 50px;
+    padding: 0;
+    margin: 0 auto;
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 12px;
+        margin-right: 0;
+    }
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: $up-white-text;
+
+    background-color: $activ;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    transition: background-color $time $time-function;
+
+    &:hover,
+    &:focus {
+        background-color: $activ-button;
+    }
+}
+
+.footer-form__icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
