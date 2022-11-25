@@ -16,11 +16,10 @@
   <link rel="stylesheet" href="./css/portfolio.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
-
 <body>
   <button onclick="topFunction()" id="myBtn" title="Go to top">
     <svg width="40" height="40" aria-label="Перхід на початок сторінки" class="button__icon">
-      <use class="icon-open" href="./images/icons.svg#icon-circle-up"></use>
+      <use class="icon-open" href="./images/icons/icons.svg#icon-circle-up"></use>
     </svg>
   </button>
   <!----- Header------>
@@ -30,14 +29,14 @@
       <button type="button" class="button button__menu js-open-menu" aria-expanded="false"
         aria-controls="menu-container">
         <svg width="40" height="40" aria-label="Вмикач мобильного меню" class="button__icon">
-          <use class="icon-open" href="./images/icons.svg#icon-menu_40px"></use>
+          <use class="icon-open" href="./images/icons/icons.svg#icon-menu"></use>
         </svg>
       </button>
       <!--- Telephone menu --->
       <div class="menu__container js-menu-container" id="menu-container">
         <button type="button" class="button button__menu button__menu--close js-close-menu">
           <svg width="40" height="40" aria-label="Переключатель мобильного меню" class="button__icon">
-            <use class="icon-close" href="./images/icons.svg#icon-close_40px"></use>
+            <use class="icon-close" href="./images/icons/icons.svg#icon-close"></use>
           </svg>
         </button>
         <nav class="header__nav">
@@ -59,14 +58,14 @@
             <li class="header__items">
               <a href="mailto:info@devstudio.com" class="link header__contact--mail">
                 <svg class="header__icon mail">
-                  <use href="./images/icons.svg#icon-envelope"></use>
+                  <use href="./images/icons/icons.svg#envelope"></use>
                 </svg>info@devstudio.com
               </a>
             </li>
             <li class="header__items">
               <a href="tel:+380961111111" class="link header__contact--tel">
                 <svg class="header__icon tel">
-                  <use href="./images/icons.svg#icon-smartphone"></use>
+                  <use href="./images/icons/icons.svg#smartphone"></use>
                 </svg>
                 +38 096 111 11 11
               </a>
@@ -113,31 +112,31 @@
               <div class="card__thumb">
                 <picture>
                   <source media="(min-width: 1200px)" srcset="
-                        ./images/techo-web-d-320.jpg 1x,
-                        ./images/techo-web-d-640.jpg 2x
-                      " type="image/jpeg" sizes="370px" />
+                                  ./images/pictures/img-01-desk-1x.jpg,
+                                  ./images/pictures/img-01-desk-2x.jpg
+                                " type="image/jpeg" sizes="370px" />
                   <source media="(min-width:1200px)" srcset="
-                        ./images/techo-web-d-320.webp 1x,
-                        ./images/techo-web-d-640.webp 2x
-                      " type="image/webp" sizes="370px" />
+                                  ./images/pictures/img-01-desk-1x.webp,
+                                  ./images/pictures/img-01-desk-2x.webp
+                                " type="image/webp" sizes="370px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/techo-web-t-320.jpg 1x,
-                        ./images/techo-web-t-640.jpg 2x
-                      " type="image/jpeg" sizes="354px" />
+                                  ./images/pictures/img-01-tab-1x.jpg,
+                                  ./images/pictures/img-01-tab-2x.jpg
+                                " type="image/jpeg" sizes="354px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/techo-web-t-320.webp 1x,
-                        ./images/techo-web-t-640.webp 2x
-                      " type="image/webp" sizes="354px" />
+                                  ./images/pictures/pictures/img-01-tab-1x.webp,
+                                  ./images/pictures/pictures/img-01-tab-2x.webp
+                                " type="image/webp" sizes="354px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/techo-web-m-320.jpg 1x,
-                        ./images/techo-web-m-640.jpg 2x
-                      " type="image/jpeg" sizes="450px" />
+                                  ./images/pictures/img-01-mob-1x.jpg,
+                                  ./images/pictures/img-01-mob-2x.jpg
+                                " type="image/jpeg" sizes="450px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/techo-web-m-320.webp 1x,
-                        ./images/techo-web-m-640.webp 2x
-                      " type="image/webp" sizes="450px" />
-                  <img src="./images/techo-web-m-320.jpg" alt="Структура сайту" width="100%" />
+                                  ./images/pictures/img-01-mob-1x.webp,
+                                  ./images/pictures/img-01-mob-2x.webp
+                                " type="image/webp" sizes="450px" />
                 </picture>
+                <img src="./images/pictures/img-01.jpg" alt="Фото проєкту LAB" width="100%" />
                 <div class="overlay">
                   <p class="overlay__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -148,8 +147,8 @@
                 </div>
               </div>
               <div class="card__bloc">
-                <h2 class="card__title">Технокряк</h2>
-                <p class="card__text">Веб-сайт</p>
+                <h2 class="card__title">Проєкт <span lang="en">LAB</span></h2>
+                <p class="card__text">Маркетингт</p>
               </div>
             </a>
           </li>
@@ -158,31 +157,31 @@
               <div class="card__thumb">
                 <picture>
                   <source media="(min-width: 1200px)" srcset="
-                        ./images/new-orlean-d-320.jpg 1x,
-                        ./images/new-orlean-d-640.jpg 2x
-                      " type="image/jpeg" sizes="370px" />
+                                  ./images/pictures/img-02-desk-1x.jpg,
+                                  ./images/pictures/img-02-desk-2x.jpg
+                                " type="image/jpeg" sizes="370px" />
                   <source media="(min-width:1200px)" srcset="
-                        ./images/new-orlean-d-320.webp 1x,
-                        ./images/new-orlean-d-640.webp 2x
-                      " type="image/webp" sizes="370px" />
+                                  ./images/pictures/img-02-desk-1x.webp,
+                                  ./images/pictures/img-02-desk-2x.webp
+                                " type="image/webp" sizes="370px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/new-orlean-t-320.jpg 1x,
-                        ./images/new-orlean-t-640.jpg 2x
-                      " type="image/jpeg" sizes="354px" />
+                                  ./images/pictures/img-02-tab-1x.jpg,
+                                  ./images/pictures/img-02-tab-2x.jpg
+                                " type="image/jpeg" sizes="354px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/new-orlean-t-320.webp 1x,
-                        ./images/new-orlean-t-640.webp 2x
-                      " type="image/webp" sizes="354px" />
+                                  ./images/pictures/img-02-tab-1x.webp,
+                                  ./images/pictures/img-02-tab-2x.webp
+                                " type="image/webp" sizes="354px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/new-orlean-m-320.jpg 1x,
-                        ./images/new-orlean-m-640.jpg 2x
-                      " type="image/jpeg" sizes="450px" />
+                                  ./images/pictures/img-02-mob-1x.jpg,
+                                  ./images/pictures/img-02-mob-2x.jpg
+                                " type="image/jpeg" sizes="450px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/new-orlean-m-320.webp 1x,
-                        ./images/new-orlean-m-640.webp 2x
-                      " type="image/webp" sizes="450px" />
-                  <img src="./images/new-orlean-m-320.jpg" alt="Постер New Orlean vs Golden Star" width="100%" />
+                                  ./images/pictures/img-02-mob-1x.webp,
+                                  ./images/pictures/img-02-mob-2x.webp
+                                " type="image/webp" sizes="450px" />
                 </picture>
+                <img src="./images/pictures/img-02.jpg" alt="Фото роботи на комп'ютері" width="100%" />
                 <div class="overlay">
                   <p class="overlay__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -193,10 +192,8 @@
                 </div>
               </div>
               <div class="card__bloc">
-                <h2 class="card__title">
-                  Постер <span lang="en">New Orlean vs Golden Star</span>
-                </h2>
-                <p class="card__text">Дизайн</p>
+                <h2 lang="en" class="card__title">Growing Business</h2>
+                <p class="card__text">Додаток</p>
               </div>
             </a>
           </li>
@@ -205,30 +202,30 @@
               <div class="card__thumb">
                 <picture>
                   <source media="(min-width: 1200px)" srcset="
-                        ./images/seafood-d-320.jpg 1x,
-                        ./images/seafood-d-640.jpg 2x
+                        ./images/pictures/img-03-desk-1x.jpg,
+                        ./images/pictures/img-03-desk-2x.jpg
                       " type="image/jpeg" sizes="370px" />
                   <source media="(min-width:1200px)" srcset="
-                        ./images/seafood-d-320.webp 1x,
-                        ./images/seafood-d-640.webp 2x
+                        ./images/pictures/img-03-desk-1x.webp,
+                        ./images/pictures/img-03-desk-2x.webp
                       " type="image/webp" sizes="370px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/seafood-t-320.jpg 1x,
-                        ./images/seafood-t-640.jpg 2x
+                        ./images/pictures/img-03-tab-1x.jpg,
+                        ./images/pictures/img-03-tab-2x.jpg
                       " type="image/jpeg" sizes="354px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/seafood-t-320.webp 1x,
-                        ./images/seafood-t-640.webp 2x
+                        ./images/pictures/img-03-tab-1x.webp,
+                        ./images/pictures/img-03-tab-2x.webp
                       " type="image/webp" sizes="354px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/seafood-m-320.jpg 1x,
-                        ./images/seafood-m-640.jpg 2x
+                        ./images/pictures/img-03-mob-1x.jpg,
+                        ./images/pictures/img-03-mob-2x.jpg
                       " type="image/jpeg" sizes="450px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/seafood-m-320.webp 1x,
-                        ./images/seafood-m-640.webp 2x
+                        ./images/pictures/img-03-mob-1x.webp,
+                        ./images/pictures/img-03-mob-2x.webp
                       " type="image/webp" sizes="450px" />
-                  <img src="./images/seafood-m-320.jpg" alt="Ресторан Seafood" width="100%" />
+                  <img src="./images/pictures/img-03.jpg" alt="Ресторан Seafood" width="100%" />
                 </picture>
                 <div class="overlay">
                   <p class="overlay__text">
@@ -252,30 +249,30 @@
               <div class="card__thumb">
                 <picture>
                   <source media="(min-width: 1200px)" srcset="
-                        ./images/headphones-d-320.jpg 1x,
-                        ./images/headphones-d-640.jpg 2x
+                        ./images/pictures/img-04-desk-1x.jpg,
+                        ./images/pictures/img-04-desk-2x.jpg
                       " type="image/jpeg" sizes="370px" />
                   <source media="(min-width:1200px)" srcset="
-                        ./images/headphones-d-320.webp 1x,
-                        ./images/headphones-d-640.webp 2x
+                        ./images/pictures/img-04-desk-1x.webp,
+                        ./images/pictures/img-04-desk-2x.webp
                       " type="image/webp" sizes="370px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/headphones-t-320.jpg 1x,
-                        ./images/headphones-t-640.jpg 2x
+                        ./images/pictures/img-04-tab-1x.jpg,
+                        ./images/pictures/img-04-tab-2x.jpg
                       " type="image/jpeg" sizes="354px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/headphones-t-320.webp 1x,
-                        ./images/headphones-t-640.webp 2x
+                        ./images/pictures/img-04-tab-1x.webp,
+                        ./images/pictures/img-04-tab-2x.webp
                       " type="image/webp" sizes="354px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/headphones-m-320.jpg 1x,
-                        ./images/headphones-m-640.jpg 2x
+                        ./images/pictures/img-04-mob-1x.jpg,
+                        ./images/pictures/img-04-mob-2x.jpg
                       " type="image/jpeg" sizes="450px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/headphones-m-320.webp 1x,
-                        ./images/headphones-m-640.webp 2x
+                        ./images/pictures/img-04-mob-1x.webp,
+                        ./images/pictures/img-04-mob-2x.webp
                       " type="image/webp" sizes="450px" />
-                  <img src="./images/headphones-m-320.jpg" alt="Навушники" width="100%" />
+                  <img src="./images/pictures/img-04.jpg" alt="Навушники" width="100%" />
                 </picture>
                 <div class="overlay">
                   <p class="overlay__text">
@@ -299,30 +296,30 @@
               <div class="card__thumb">
                 <picture>
                   <source media="(min-width: 1200px)" srcset="
-                        ./images/box-d-320.jpg 1x,
-                        ./images/box-d-640.jpg 2x
+                        ./images/pictures/img-05-desk-1x.jpg,
+                        ./images/pictures/img-05-desk-2x.jpg
                       " type="image/jpeg" sizes="370px" />
                   <source media="(min-width:1200px)" srcset="
-                        ./images/box-d-320.webp 1x,
-                        ./images/box-d-640.webp 2x
+                        ./images/pictures/img-05-desk-1x.webp,
+                        ./images/pictures/img-05-desk-2x.webp
                       " type="image/webp" sizes="370px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/box-t-320.jpg 1x,
-                        ./images/box-t-640.jpg 2x
+                        ./images/pictures/img-05-tab-1x.jpg,
+                        ./images/pictures/img-05-tab-2x.jpg
                       " type="image/jpeg" sizes="354px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/box-t-320.webp 1x,
-                        ./images/box-t-640.webp 2x
+                        ./images/pictures/img-05-tab-1x.webp,
+                        ./images/pictures/img-05-tab-2x.webp
                       " type="image/webp" sizes="354px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/box-m-320.jpg 1x,
-                        ./images/box-m-640.jpg 2x
+                        ./images/pictures/img-05-mob-1x.jpg,
+                        ./images/pictures/img-05-mob-2x.jpg
                       " type="image/jpeg" sizes="450px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/box-m-320.webp 1x,
-                        ./images/box-m-640.webp 2x
+                        ./images/pictures/img-05-mob-1x.webp,
+                        ./images/pictures/img-05-mob-2x.webp
                       " type="image/webp" sizes="450px" />
-                  <img src="./images/box-m-320.jpg" alt="Коробки" width="100%" />
+                  <img src="./images/pictures/img-05.jpg" alt="Коробки" width="100%" />
                 </picture>
                 <div class="overlay">
                   <p class="overlay__text">
@@ -346,30 +343,30 @@
               <div class="card__thumb">
                 <picture>
                   <source media="(min-width: 1200px)" srcset="
-                        ./images/website-d-320.jpg 1x,
-                        ./images/website-d-640.jpg 2x
+                        ./images/pictures/img-06-desk-1x.jpg,
+                        ./images/pictures/img-06-desk-2x.jpg
                       " type="image/jpeg" sizes="370px" />
                   <source media="(min-width:1200px)" srcset="
-                        ./images/website-d-320.webp 1x,
-                        ./images/website-d-640.webp 2x
+                        ./images/pictures/img-06-desk-1x.jpg,
+                        ./images/pictures/img-06-desk-2x.jpg
                       " type="image/webp" sizes="370px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/website-t-320.jpg 1x,
-                        ./images/website-t-640.jpg 2x
+                        ./images/pictures/img-06-tab-1x.jpg,
+                        ./images/pictures/img-06-tab-2x.jpg
                       " type="image/jpeg" sizes="354px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/website-t-320.webp 1x,
-                        ./images/website-t-640.webp 2x
+                        ./images/pictures/img-06-tab-1x.webp,
+                        ./images/pictures/img-06-tab-2x.webp
                       " type="image/webp" sizes="354px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/website-m-320.jpg 1x,
-                        ./images/website-m-640.jpg 2x
+                        ./images/pictures/img-06-mob-1x.jpg,
+                        ./images/pictures/img-06-mob-2x.jpg
                       " type="image/jpeg" sizes="450px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/website-m-320.webp 1x,
-                        ./images/website-m-640.webp 2x
+                        ./images/pictures/img-06-mob-1x.webp,
+                        ./images/pictures/img-06-mob-2x.webp
                       " type="image/webp" sizes="450px" />
-                  <img src="./images/website-m-320.jpg" alt="Фото веб-сайту" width="100%" />
+                  <img src="./images/pictures/img-06.jpg" alt="Фото веб-сайту" width="100%" />
                 </picture>
                 <div class="overlay">
                   <p class="overlay__text">
@@ -393,31 +390,31 @@
               <div class="card__thumb">
                 <picture>
                   <source media="(min-width: 1200px)" srcset="
-                        ./images/edition-d-320.jpg 1x,
-                        ./images/edition-d-640.jpg 2x
+                        ./images/pictures/img-08-desk-1x.jpg,
+                        ./images/pictures/img-08-desk-2x.jpg
                       " type="image/jpeg" sizes="370px" />
                   <source media="(min-width:1200px)" srcset="
-                        ./images/edition-d-320.webp 1x,
-                        ./images/edition-d-640.webp 2x
+                        ./images/pictures/img-08-desk-1x.webp,
+                        ./images/pictures/img-08-desk-2x.webp
                       " type="image/webp" sizes="370px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/edition-t-320.jpg 1x,
-                        ./images/edition-t-640.jpg 2x
+                        ./images/pictures/img-08-tab-1x.jpg,
+                        ./images/pictures/img-08-tab-2x.jpg
                       " type="image/jpeg" sizes="354px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/edition-t-320.webp 1x,
-                        ./images/edition-t-640.webp 2x
+                        ./images/pictures/img-08-tab-1x.webp,
+                        ./images/pictures/img-08-tab-2x.webp
                       " type="image/webp" sizes="354px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/edition-m-320.jpg 1x,
-                        ./images/edition-m-640.jpg 2x
+                        ./images/pictures/img-08-mob-1x.jpg,
+                        ./images/pictures/img-08-mob-2x.jpg
                       " type="image/jpeg" sizes="450px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/edition-m-320.webp 1x,
-                        ./images/edition-m-640.webp 2x
+                        ./images/pictures/img-08-mob-1x.webp,
+                        ./images/pictures/img-08-mob-2x.webp
                       " type="image/webp" sizes="450px" />
                 </picture>
-                <img src="./images/edition-m-320.jpg" alt="Сайт видавництва" width="100%" />
+                <img src="./images/pictures/img-08.jpg" alt="Сайт видавництва" width="100%" />
                 <div class="overlay">
                   <p class="overlay__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -440,31 +437,31 @@
               <div class="card__thumb">
                 <picture>
                   <source media="(min-width: 1200px)" srcset="
-                        ./images/project-d-320.jpg 1x,
-                        ./images/project-d-640.jpg 2x
+                        ./images/pictures/img-07-desk-1x.jpg,
+                        ./images/pictures/img-07-desk-2x.jpg
                       " type="image/jpeg" sizes="370px" />
                   <source media="(min-width:1200px)" srcset="
-                        ./images/project-d-320.webp 1x,
-                        ./images/project-d-640.webp 2x
+                        ./images/pictures/img-07-desk-1x.webp,
+                        ./images/pictures/img-07-desk-2x.webp
                       " type="image/webp" sizes="370px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/project-t-320.jpg 1x,
-                        ./images/project-t-640.jpg 2x
+                        ./images/pictures/img-07-tab-1x.jpg,
+                        ./images/pictures/img-07-tab-2x.jpg
                       " type="image/jpeg" sizes="354px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/project-t-320.webp 1x,
-                        ./images/project-t-640.webp 2x
+                        ./images/pictures/pictures/img-07-tab-1x.webp,
+                        ./images/pictures/pictures/img-07-tab-2x.webp
                       " type="image/webp" sizes="354px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/project-m-320.jpg 1x,
-                        ./images/project-m-640.jpg 2x
+                        ./images/pictures/img-07-mob-1x.jpg,
+                        ./images/pictures/img-07-mob-2x.jpg
                       " type="image/jpeg" sizes="450px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/project-m-320.webp 1x,
-                        ./images/project-m-640.webp 2x
+                        ./images/pictures/img-07-mob-1x.webp,
+                        ./images/pictures/img-07-mob-2x.webp
                       " type="image/webp" sizes="450px" />
                 </picture>
-                <img src="./images/project-m-320.jpg" alt="Фото проєкту LAB" width="100%" />
+                <img src="./images/pictures/img-07.jpg" alt="Фото проєкту LAB" width="100%" />
                 <div class="overlay">
                   <p class="overlay__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -485,31 +482,31 @@
               <div class="card__thumb">
                 <picture>
                   <source media="(min-width: 1200px)" srcset="
-                        ./images/growing-business-d-320.jpg 1x,
-                        ./images/growing-business-d-640.jpg 2x
+                        ./images/pictures/img-08-desk-1x.jpg,
+                        ./images/pictures/img-08-desk-2x.jpg
                       " type="image/jpeg" sizes="370px" />
                   <source media="(min-width:1200px)" srcset="
-                        ./images/growing-business-d-320.webp 1x,
-                        ./images/growing-business-d-640.webp 2x
+                        ./images/pictures/img-08-desk-1x.webp,
+                        ./images/pictures/img-08-desk-2x.webp
                       " type="image/webp" sizes="370px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/growing-business-t-320.jpg 1x,
-                        ./images/growing-business-t-640.jpg 2x
+                        ./images/pictures/img-08-tab-1x.jpg,
+                        ./images/pictures/img-08-tab-2x.jpg
                       " type="image/jpeg" sizes="354px" />
                   <source media="(min-width: 768px)" srcset="
-                        ./images/growing-business-t-320.webp 1x,
-                        ./images/growing-business-t-640.webp 2x
+                        ./images/pictures/img-08-tab-1x.webp,
+                        ./images/pictures/img-08-tab-2x.webp
                       " type="image/webp" sizes="354px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/growing-business-m-320.jpg 1x,
-                        ./images/growing-business-m-640.jpg 2x
+                        ./images/pictures/img-08-mob-1x.jpg,
+                        ./images/pictures/img-08-mob-2x.jpg
                       " type="image/jpeg" sizes="450px" />
                   <source media="(min-width: 480px)" srcset="
-                        ./images/growing-business-m-320.webp 1x,
-                        ./images/growing-business-m-640.webp 2x
+                        ./images/pictures/img-08-mob-1x.webp,
+                        ./images/pictures/img-08-mob-2x.webp
                       " type="image/webp" sizes="450px" />
                 </picture>
-                <img src="./images/growing-business-m-320.jpg" alt="Фото роботи на комп'ютері" width="100%" />
+                <img src="./images/pictures/img-08-desk-1x.jpg" alt="Фото роботи на комп'ютері" width="100%" />
                 <div class="overlay">
                   <p class="overlay__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -557,28 +554,28 @@
           <li class="social__link">
             <a href="#" class="social__button social__button--footer">
               <svg class="social__icon">
-                <use href="./images/icons.svg#icon-instagram"></use>
+                <use href="./images/icons/icons.svg#instagram"></use>
               </svg>
             </a>
           </li>
           <li class="social__link">
             <a href="#" class="social__button social__button--footer">
               <svg class="social__icon">
-                <use href="./images/icons.svg#icon-twitter"></use>
+                <use href="./images/icons/icons.svg#twitter"></use>
               </svg>
             </a>
           </li>
           <li class="social__link">
             <a href="#" class="social__button social__button--footer">
               <svg class="social__icon">
-                <use href="./images/icons.svg#icon-facebook"></use>
+                <use href="./images/icons/icons.svg#facebook"></use>
               </svg>
             </a>
           </li>
           <li class="social__link">
             <a href="#" class="social__button social__button--footer">
               <svg class="social__icon">
-                <use href="./images/icons.svg#icon-linkedin"></use>
+                <use href="./images/icons/icons.svg#linkedin"></use>
               </svg>
             </a>
           </li>
@@ -594,7 +591,7 @@
           <button type="submit" class="footer-form__button">
             Підписатися
             <svg class="footer-form__icon">
-              <use href="./images/icons.svg#icon-send"></use>
+              <use href="./images/icons/icons.svg#icon-send"></use>
             </svg>
           </button>
         </form>
