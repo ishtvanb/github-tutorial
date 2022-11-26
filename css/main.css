@@ -7,7 +7,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/*----- Прибирання крапки та лінії на тексті -----*/
+/*------------- прибирання крапки та лінії на тексті -----*/
 .list {
   list-style: none;
 }
@@ -17,7 +17,7 @@ body {
   text-decoration: none;
 }
 
-/*----- Скидання стилів та встановлення меж макету ----*/
+/* ----скидання стилів та встановлення меж макету--------- */
 .container {
   min-width: 320px;
   padding: 0 15px;
@@ -1038,7 +1038,7 @@ button {
   color: #2196f3;
 }
 
-/* ----- Приєнуйся; соц зв'язок у футері ------ */
+/* ----------------Приєнуйся соц зв'язок в підвалі --------- */
 .footer__text {
   margin-bottom: 20px;
   font-weight: 700;
@@ -1047,7 +1047,7 @@ button {
   color: #ffffff;
 }
 
-/* <!----- Приєднайся і залиш свою пошту -----> */
+/* <!------- Приєднайся залиш свою пошту ---------------> */
 @media screen and (min-width: 1200px) {
   .footer__input {
     margin-left: auto;
@@ -1196,12 +1196,12 @@ button {
   overflow-y: scroll;
 }
 
-.backdrop.is-hidden .modal {
+.backdrop.is-hidden .model {
   -webkit-transform: translate(-50%, -50%) scale(0) rotate(1turn);
           transform: translate(-50%, -50%) scale(0) rotate(1turn);
 }
 
-.modal {
+.model {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1220,7 +1220,7 @@ button {
   border-radius: 4px;
 }
 @media screen and (max-width: 1199px) {
-  .modal {
+  .model {
     height: 95%;
     width: 95%;
     max-height: 609px;
@@ -1228,7 +1228,7 @@ button {
     overflow: scroll;
   }
 }
-.modal__title {
+.model__titel {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -1283,7 +1283,7 @@ button {
   margin-bottom: 20px;
 }
 
-.form__title {
+.form__titel {
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.16;
@@ -1401,7 +1401,7 @@ button {
   background-color: #188ce8;
 }
 
-/* -----Checkbox----- */
+/* -----------checkbox--------------- */
 .checkbox {
   display: -webkit-box;
   display: -ms-flexbox;
